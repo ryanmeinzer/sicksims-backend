@@ -13,11 +13,11 @@ class SuperherosController < ApplicationController
         end
     end
 
-    def update
-        superhero = Superhero.find(params[:id]) 
-        superhero.update(superhero_params) 
-        render json: SuperheroSerializer.new(superhero).to_serialized_json
-    end
+    # def update
+    #     superhero = Superhero.find(params[:id]) 
+    #     superhero.update(superhero_params) 
+    #     render json: SuperheroSerializer.new(superhero).to_serialized_json
+    # end
 
     private
 
