@@ -8,6 +8,6 @@
 
 Superhero.destroy_all
 
-Superhero.create(name: 'Beyonce Girl', score: 90)
-Superhero.create(name: 'Berserk', score: 90)
-Superhero.create(name: 'Cindy', score: 30)
+Superhero.create(name: 'Beyonce Girl', score: 81)
+Superhero.create(name: 'Berserk', score: 76)
+Superhero.create(name: 'Cindy', score: 32)
