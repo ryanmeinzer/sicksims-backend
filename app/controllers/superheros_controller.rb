@@ -9,7 +9,7 @@ class SuperherosController < ApplicationController
         if superhero.valid?
             render json: SuperheroSerializer.new(superhero).to_serialized_json
         else
-            render json: {message: "'#{superhero.name}' already exists"} 
+            render json: {message: "'#{superhero.name}' already exists or includes an unpermitted character"} 
         end
     end
 
